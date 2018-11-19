@@ -46,7 +46,8 @@ public class IO {
 
             String weekendLine = br.readLine();
             String[] weekInfo = weekendLine.split("\t");
-            identical = "1".equals(weekInfo[0]); //E
+            identical = "1".equals(weekInfo[0]); //Elien
+            
            
 
             String minCovReqInfo;
