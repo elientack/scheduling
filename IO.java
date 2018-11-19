@@ -46,7 +46,8 @@ public class IO {
 
             String weekendLine = br.readLine();
             String[] weekInfo = weekendLine.split("\t");
-            identical = Boolean.parseBoolean(weekInfo[0]);
+            identical = "1".equals(weekInfo[0]); //E
+           
 
             String minCovReqInfo;
             minCovReq = new int[nbrShifts-1][NurseScheduling.NBR_DEP]; //ex. per shift per department
